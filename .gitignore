@@ -1,3 +1,6 @@
-*
-!./template.tex
-!./template.pdf
+template.aux
+template.fdb_latexmk
+template.fls
+template.log
+template.synctex.gz
+
