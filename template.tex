@@ -18,6 +18,13 @@
 %\usepackage{listings,jlisting} % [ソースコード挿入] jlistings.styが必要
 %\usepackage{amsmath} 		% 行列式の記述用
 \begin{comment}
+\usepackage{here}			% 図位置固定
+\usepackage{multicol}
+\usepackage{tabularx}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
 % ソースコードのスタイルの設定
 \lstset{%
     language={},
